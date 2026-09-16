@@ -28,3 +28,7 @@
 
 
 Создана базовая структура проекта.
+
+## Ссылка на опубликованный проект
+
+GitHub Pages: https://arsius2000.github.io/kr1-html-css-shop/
