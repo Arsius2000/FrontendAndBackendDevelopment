@@ -18,7 +18,8 @@ orderButtons.forEach((button) => {
 
     // Записываем название товара в скрытое поле формы.
     selectedProductInput.value = productName;
-
+    console.log(productName);
+    
     // Открываем модальное окно.
     orderDialog.showModal();
   });
