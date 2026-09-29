@@ -79,7 +79,7 @@ a:focus-visible {
   outline-offset: 3px;
 }
 
-button {
+.button {
   display: inline-block;
   padding: var(--space-sm) var(--space-md);
   color: var(--color-white);
