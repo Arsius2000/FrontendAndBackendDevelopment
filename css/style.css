@@ -61,6 +61,10 @@ header {
 footer {
   background-color: var(--color-surface);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* ===============================
    3. Общие элементы интерфейса
@@ -163,6 +167,11 @@ a:focus-visible {
 .breadcrumbs span::before {
   content: " / ";
   color: var(--color-muted);
+}
+
+:target {
+  outline: 2px dashed var(--color-primary);
+  outline-offset: 4px;
 }
 
 
