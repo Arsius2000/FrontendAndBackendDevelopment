@@ -132,6 +132,9 @@ a:focus-visible {
   background-color: var(--color-primary);
 }
 
+
+
+
 /* ===============================
    4. Компоненты страницы
    =============================== */
@@ -154,11 +157,19 @@ a:focus-visible {
 }
 
 .product-card {
-  margin-bottom: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: 0;
   padding: var(--space-md);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background-color: var(--color-bg);
+}
+
+.product-card .button {
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .product-card:hover {
@@ -167,6 +178,12 @@ a:focus-visible {
 
 .product-card h3 {
   margin-top: 0;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
 }
 
 .aside-info {
